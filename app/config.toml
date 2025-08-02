@@ -26,3 +26,11 @@ filename = "%(title)s.%(ext)s"
 sponsorblock = 0
 metadata = false
 thumbnail = false
+
+[presets.wav]
+args = ["--extract-audio", "--audio-format", "wav", "--audio-quality", "0"]
+path = ""
+filename = "%(title)s.%(ext)s"
+sponsorblock = 0
+metadata = false
+thumbnail = false
